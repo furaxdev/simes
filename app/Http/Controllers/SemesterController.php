@@ -20,7 +20,7 @@ class SemesterController extends Controller
      */
     public function index()
     {
-        return view('Semester.index')->with('semesters', Semester::all());
+        return view('semester.index')->with('semesters', Semester::all());
     }
 
     /**
